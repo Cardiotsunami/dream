@@ -304,7 +304,7 @@ $top: 90px;
 		.section-wrap__sub{
 			background: url(../images/imgBg.jpg) no-repeat right center;
 			background-size: 50% 100%;
-			padding-bottom: 80px;
+			// padding-bottom: 80px;
 		}
 	}
 	.main-section2{
@@ -348,6 +348,7 @@ $top: 90px;
 					border: none;
 					border-radius: 5px;
 					font-size: 14px;
+					cursor: pointer;
 				}
 			}
 	}
@@ -556,4 +557,5 @@ tr>th{
 	border: 1px solid white;
 	border-radius: 3px;
 	height: 40px;
+	cursor: pointer;
 }
