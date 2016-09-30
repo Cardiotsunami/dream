@@ -479,3 +479,21 @@ tr>th{
 .table__total>td{
 	font-family: 'OpenSans-Bold';
 }
+
+.main-section__infoParagraph{
+	font-family: 'OpenSans-Regular';
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.main-section__conditionsList{
+	font-family: 'OpenSans-Regular';
+	font-size: 14px;
+}
+
+.main-section__condition:before{
+	content: "• ";
+	vertical-align: middle;
+    color: $colorPurple; 
+    font-size: 32px !important;
+}
