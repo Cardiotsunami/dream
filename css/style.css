@@ -427,4 +427,13 @@ tr > th {
   color: #b35a8d;
   font-size: 32px !important; }
 
+.main-section__planTime {
+  text-transform: uppercase;
+  font-family: 'OpenSans-Semibold';
+  color: #386c9c;
+  margin-top: 20px; }
+
+.main-section__condtionElement {
+  margin-bottom: 40px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -497,3 +497,14 @@ tr>th{
     color: $colorPurple; 
     font-size: 32px !important;
 }
+
+.main-section__planTime{
+	text-transform: uppercase;
+	font-family: 'OpenSans-Semibold';
+	color: $colorBlue;
+	margin-top: 20px;
+}
+
+.main-section__condtionElement{
+	margin-bottom: 40px;
+}
