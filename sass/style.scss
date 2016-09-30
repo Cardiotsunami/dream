@@ -559,3 +559,51 @@ tr>th{
 	height: 40px;
 	cursor: pointer;
 }
+
+
+.reg-form__login__sc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.reg-form__login__sc .reg-form__tw{
+	width: 48%;
+}
+.reg-form__login__sc .reg-form__tw i{
+	font-size: 1.4em;
+	margin-left: 5px;
+}
+.reg-form__login__sc .reg-form__fb i{
+	font-size: 1.4em;
+	margin-left: 5px;
+}
+
+.reg-form h4 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'OpenSans-Regular';
+}
+.reg-form h4:after {
+  display: inline-block;
+  margin: 0 0 3px 20px;
+  height: 1px;
+  content: " ";
+  text-shadow: none;
+  background-color: white;
+  width: 90px;
+}
+.reg-form h4:before {
+  display: inline-block;
+  margin: 0 20px 3px 0;
+  height: 1px;
+  content: " ";
+  text-shadow: none;
+  background-color: white;
+  width: 90px;
+}
