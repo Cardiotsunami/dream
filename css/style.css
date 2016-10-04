@@ -535,4 +535,101 @@ tr > th {
   background-color: white;
   width: 90px; }
 
+.main-section__chooseText {
+  color: black;
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  margin-bottom: 21px;
+  margin-top: 30px; }
+
+.main-section__select {
+  outline: none;
+  height: 36px;
+  overflow: hidden;
+  width: 402px;
+  background-color: #1485a6;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.main-section__select select {
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 10px;
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 36px;
+  width: 268px;
+  color: white;
+  font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  width: 402px; }
+
+.main-section__select:focus {
+  outline: none; }
+
+.main-section__select select option {
+  color: black; }
+
+.main-section__operatorsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+
+.main-section__operatorsListElement {
+  cursor: pointer;
+  width: 125px;
+  height: 64px;
+  background-color: white;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  margin-right: 15px; }
+
+.main-section__tele2 {
+  background: url(../images/tele2.png) center center no-repeat; }
+
+.main-section__beeline {
+  background: url(../images/beeline.png) center center no-repeat; }
+
+.main-section__kcell {
+  background: url(../images/kcell.png) center center no-repeat; }
+
+.main-section__activ {
+  background: url(../images/activ.png) center center no-repeat; }
+
+.main-section__altel {
+  background: url(../images/altel.png) center center no-repeat; }
+
+.main-section__exchangeOptions {
+  width: 440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 26px; }
+
+.main-section__exchangeInput {
+  width: 204px;
+  height: 36px;
+  background-color: white;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  color: #c2c2c2;
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  padding-left: 18px;
+  box-sizing: border-box; }
+
+.main-section__exchangeButton {
+  width: 186px;
+  height: 36px;
+  background-color: #7cc351;
+  border-radius: 5px;
+  color: #010101;
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  border: none;
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
