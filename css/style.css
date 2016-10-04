@@ -68,7 +68,7 @@ table {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    width: 375px; }
+    width: 455px; }
   .body .header .header__link {
     color: #010101;
     text-transform: uppercase;
@@ -84,7 +84,11 @@ table {
     background: #ffb744;
     border-radius: 5px; }
   .body .header .header__link-out {
-    color: #bcbcbc; }
+    color: #bcbcbc;
+    margin-right: 0px;
+    padding-right: 0px; }
+    .body .header .header__link-out:hover {
+      background: none; }
     .body .header .header__link-out i {
       margin-right: 5px; }
 .body .main-section {
@@ -99,7 +103,8 @@ table {
     .body .main-section .main-section__left .main-section__leftInfoMenu {
       margin-bottom: 20px;
       background: #eeeeee;
-      width: 230px; }
+      width: 230px;
+      background-color: white; }
       .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftInfoMenu__userName {
         width: 230px;
         padding-left: 15px;
@@ -134,19 +139,20 @@ table {
         .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftLink:hover {
           color: #b35a8d !important; }
           .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftLink:hover i {
-            color: #b35a8d !important;
-            width: 25px; }
+            color: #b35a8d !important; }
         .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftLink i {
           margin-right: 15px;
           font-size: 21px;
           color: #bcbcbc;
-          padding-left: 15px; }
+          padding-left: 15px;
+          width: 25px; }
     .body .main-section .main-section__left .main-section__leftInfoCode {
       padding-top: 25px;
       height: 175px;
       display: block;
       width: 230px;
-      box-shadow: 0 0 3px 3px whitesmoke;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
       box-sizing: border-box;
       border-radius: 5px;
       text-align: center; }
@@ -162,23 +168,28 @@ table {
         text-align: center;
         margin-bottom: 15px;
         border: none;
-        border: 1px solid grey;
-        border-radius: 5px; }
+        border-radius: 5px;
+        border: 1px solid #bcbcbc;
+        color: #adadad;
+        font-size: 14px; }
       .body .main-section .main-section__left .main-section__leftInfoCode .main-section__buttonActivate {
         width: 200px;
         height: 40px;
         font-family: 'OpenSans-Regular';
         font-size: 14px;
-        background: #ffb744;
         border: none;
-        cursor: pointer; }
+        cursor: pointer;
+        color: black;
+        background-color: #ffb744;
+        border-radius: 5px; }
     .body .main-section .main-section__left .main-section__leftBonusInfo {
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
       display: block;
       height: 130px;
       border-radius: 5px;
       width: 230px;
       margin-top: 20px;
-      box-shadow: 0 0 3px 3px whitesmoke;
       text-align: center;
       padding-top: 25px; }
       .body .main-section .main-section__left .main-section__leftBonusInfo .main-section__bonusText {
@@ -191,7 +202,7 @@ table {
         font-size: 20px;
         font-family: 'OpenSans-Bold'; }
   .body .main-section .main-section__right {
-    width: 700px; }
+    width: 750px; }
     .body .main-section .main-section__right .profile-form .profile-form__element {
       margin-bottom: 15px; }
       .body .main-section .main-section__right .profile-form .profile-form__element label {
@@ -203,7 +214,7 @@ table {
         border: none;
         border: 1px solid grey;
         border-radius: 3px;
-        width: 510px;
+        width: 525px;
         height: 40px;
         padding-left: 10px;
         box-sizing: border-box;
@@ -324,13 +335,12 @@ progress {
   appearance: none;
   width: 100%;
   height: 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background: #eee; }
 
 progress::-webkit-progress-bar {
-  background-color: #ffb744;
-  border-radius: 2px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset; }
+  background-color: #fec93b;
+  border-radius: 8px; }
 
 .main-section__planElement__text {
   text-transform: uppercase; }
@@ -357,7 +367,8 @@ progress::-webkit-progress-bar {
   margin-bottom: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  text-transform: uppercase; }
 
 .main-section__planProgressBar {
   margin-bottom: 60px; }
@@ -387,6 +398,8 @@ tr:nth-child(odd) {
   background-color: whitesmoke; }
 
 tr > th {
+  font-size: 14px;
+  border-right: 5px solid #fff;
   text-align: center;
   font-family: 'OpenSans-Regular';
   width: 25%;

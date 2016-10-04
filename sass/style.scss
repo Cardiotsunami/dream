@@ -52,11 +52,9 @@ $top: 90px;
 		width: 970px;
 		margin: 0 auto;
 		@include flex();
-		.header__logo{
-		}
 		.header__box{
 			@include flex();
-			width: 375px;
+			width: 455px;
 		}
 		.header__link{
 			// margin-left: -20px;
@@ -78,6 +76,11 @@ $top: 90px;
 		}
 		.header__link-out{
 			color: $colorGrey;
+			margin-right: 0px;
+			padding-right: 0px;
+			&:hover{
+				background: none;
+			}
 			i{
 				margin-right: 5px;
 			}
@@ -99,6 +102,7 @@ $top: 90px;
 				margin-bottom: 20px;
 				background: #eeeeee;
 				width: 230px;
+				background-color: white;
 				.main-section__leftInfoMenu__userName{
 					width: 230px;
 					padding-left: 15px;
@@ -138,14 +142,14 @@ $top: 90px;
 						color: $colorPurple !important;
 					i{
 							color: $colorPurple !important;
-							width: 25px;
-						}
+					}
 					}
 					i{
 						margin-right: 15px;
 						font-size: 21px;
 						color: #bcbcbc;
 						padding-left: 15px;
+						width: 25px;
 					}
 				}
 			}
@@ -154,7 +158,8 @@ $top: 90px;
 				height: 175px;
 				display: block;
 				width: 230px;
-				box-shadow: 0 0 3px 3px whitesmoke;
+				border-radius: 5px;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 				box-sizing: border-box;
 				border-radius: 5px;
 				text-align: center;
@@ -171,27 +176,32 @@ $top: 90px;
 					text-align: center;
 					margin-bottom: 15px;
 					border: none;
-					border: 1px solid grey;
 					border-radius: 5px;
+					border: 1px solid #bcbcbc;
+					color: #adadad;
+					font-size: 14px;
 				}
 				.main-section__buttonActivate{
 					width: 200px;
 					height: 40px;
 					font-family: 'OpenSans-Regular';
 					font-size: 14px;
-					background: #ffb744;
 					border: none;
 					cursor: pointer;
+					color: black;
+					background-color: #ffb744;
+					border-radius: 5px;
 				}
 			}
 			.main-section__leftBonusInfo{
+				border-radius: 5px;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 				display: block;
 				height: 130px;
 				// border: 1px solid grey;
 				border-radius: 5px;
 				width: 230px;
 				margin-top: 20px;
-				box-shadow: 0 0 3px 3px whitesmoke;
 				text-align: center;
 				padding-top: 25px;
 				.main-section__bonusText{
@@ -209,7 +219,7 @@ $top: 90px;
 		}
 		.main-section__right{
 			// display: block;
-			width: 700px;
+			width: 750px;
 			// float: right;
 			.profile-form{
 				// display: inline-flex;
@@ -230,7 +240,7 @@ $top: 90px;
 						border: none;
 						border: 1px solid grey;
 						border-radius: 3px;
-						width: 510px;
+						width: 525px;
 						height: 40px;
 						padding-left: 10px;
 						box-sizing: border-box;
@@ -374,13 +384,13 @@ progress {
   width: 100%;
   height: 20px;
   border-radius: 10px;
+  background: #eee;
 }
 
 progress::-webkit-progress-bar {
-  background-color: #ffb744;
-  border-radius: 2px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  background-color: #fec93b;
+  border-radius: 8px;
+  // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
 .main-section__planElement__text{
@@ -412,6 +422,7 @@ progress::-webkit-progress-bar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	text-transform: uppercase;
 }
 
 .main-section__planProgressBar{
@@ -449,6 +460,8 @@ tr:nth-child(odd) {
 }
 
 tr>th{
+	font-size: 14px;
+	border-right: 5px solid #fff;
 	text-align: center;
 	font-family: 'OpenSans-Regular';
 	width: 25%;
