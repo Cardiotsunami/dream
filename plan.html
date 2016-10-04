@@ -5,8 +5,17 @@
 	<title>Аккаунт</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<script src = "js/app.js"></script>
 </head>
 <body class="body">
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <!-- <span class="close">×</span> -->
+    <p>Ваш код активирован <br> Вам начислено 50  баллов</p>
+    <p>Мобильный баланс будет пополнен на 100 тенге после оплаты заказа</p>
+  </div>
+</div>
 	<header class="header">
 		<img src="images/logo.png" alt="" class="header__logo">
 		<div class="header__box">
@@ -35,7 +44,7 @@
 					Активация кода: 
 				</p>
 				<input type="text" class="main-section__inputActivate" placeholder="XXX-XXX">
-				<button class="main-section__buttonActivate">
+				<button class="main-section__buttonActivate" id="myBtn">
 					Активировать
 				</button>
 			</div>
