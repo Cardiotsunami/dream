@@ -104,7 +104,8 @@ table {
       margin-bottom: 20px;
       background: #eeeeee;
       width: 230px;
-      background-color: white; }
+      background-color: white;
+      height: 228px; }
       .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftInfoMenu__userName {
         width: 230px;
         padding-left: 15px;
@@ -115,12 +116,14 @@ table {
         height: 60px;
         background: #b35a8d;
         display: flex;
-        align-items: center; }
+        align-items: center;
+        text-transform: uppercase; }
         .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftInfoMenu__userName .text {
           font-family: 'OpenSans-Semibold';
           color: white;
           font-size: 14px;
-          vertical-align: middle; }
+          vertical-align: middle;
+          line-height: 20px; }
       .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftLinkActive {
         color: #b35a8d !important; }
         .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftLinkActive i {
@@ -133,8 +136,8 @@ table {
         font-size: 14px;
         font-family: 'OpenSans-Regular';
         text-decoration: none;
-        padding-bottom: 15px;
-        padding-top: 15px;
+        padding-bottom: 11px;
+        padding-top: 12px;
         color: black; }
         .body .main-section .main-section__left .main-section__leftInfoMenu .main-section__leftLink:hover {
           color: #b35a8d !important; }
@@ -147,7 +150,7 @@ table {
           padding-left: 15px;
           width: 25px; }
     .body .main-section .main-section__left .main-section__leftInfoCode {
-      padding-top: 25px;
+      padding-top: 35px;
       height: 175px;
       display: block;
       width: 230px;
@@ -186,7 +189,7 @@ table {
       border-radius: 5px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
       display: block;
-      height: 130px;
+      height: 115px;
       border-radius: 5px;
       width: 230px;
       margin-top: 20px;
@@ -235,7 +238,8 @@ table {
   width: 100%;
   background: #eeeeee;
   position: relative;
-  bottom: 0; }
+  bottom: 0;
+  padding-top: 30px; }
   .body .footer .footer__content {
     width: 970px;
     margin: 0 auto;
@@ -245,7 +249,8 @@ table {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    align-content: center; }
+    align-content: center;
+    align-items: flex-start; }
     .body .footer .footer__content .footer__copyright {
       font-family: 'OpenSans-Regular';
       font-size: 12px; }
@@ -353,32 +358,40 @@ progress::-webkit-progress-bar {
   font-size: 14px; }
 
 .main-section__planElement__count {
-  padding: 10px;
+  margin-left: 20px !important;
+  padding: 12px;
   background: #b35a8d;
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-left: 10px;
-  font-family: 'OpenSans-Semibold'; }
+  font-family: 'OpenSans-Semibold';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 72px; }
 
 .main-section__planProgressBar__distribution {
   font-family: 'OpenSans-Regular';
   font-size: 14px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-transform: uppercase; }
+  .main-section__planProgressBar__distribution span {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 17px; }
 
-.main-section__planProgressBar {
-  margin-bottom: 60px; }
+.distrnumbers span {
+  margin-top: 0px;
+  margin-bottom: 30px; }
 
 .main-section__right hr {
   color: #b35a8d;
   background: #b35a8d;
   height: 1px;
-  display: block;
-  margin-bottom: 20px; }
+  display: block; }
 
 table {
   font-family: arial, sans-serif;
@@ -403,7 +416,7 @@ tr > th {
   text-align: center;
   font-family: 'OpenSans-Regular';
   width: 25%;
-  height: 50px;
+  height: 42px;
   vertical-align: middle;
   color: white; }
 
@@ -701,6 +714,15 @@ tr > th {
 .close:focus {
   color: #000;
   text-decoration: none;
+  cursor: pointer; }
+
+.number__label__changer {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  left: 85%;
+  top: -6px;
   cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
