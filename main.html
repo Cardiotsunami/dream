@@ -5,6 +5,7 @@
 	<title>Главная</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<script src = "js/app.js"></script>
 </head>
 <body class="body">
 	<header class="header">
@@ -36,7 +37,9 @@
 					</label>
 					<label for="" class="number__label">
 						<i class="fa fa-lock"></i>
-						<input type="text" class="reg-form__input" placeholder="Пароль" >
+						<input type="password" id="passInput" class="reg-form__input reg-form__inputpass" placeholder="Пароль" >
+						<span class="number__label__changer" id="changeIcon">
+            			</span>
 					</label>
 					<input type="text" class="reg-form__input reg-form__input__promo" placeholder="Промо код" >
 					<button class="reg-form__button">
